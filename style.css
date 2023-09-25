@@ -90,7 +90,7 @@ body {
     font-size: 20px;
     text-align: center;
     z-index:-1;
-    left:25px;
+    left:20px;
     bottom:2px;
   }
 
@@ -230,7 +230,7 @@ body {
   .download {
     position: absolute;
     top: 120px;
-    left: 30px;
+    left: 25px;
     display: none;
   }
 
