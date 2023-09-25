@@ -8,6 +8,7 @@ body {
   .birthday-gift {
     position: relative;
   }
+
   .birthday-gift:before {
     content:"";
     position: absolute;
@@ -46,6 +47,7 @@ body {
   input#click {
     display: none;
   }
+
   .click {
     position: absolute;
     background-color: #e9c46a;
@@ -222,5 +224,16 @@ body {
   }
 
   #click:checked ~ .sparkles {
+    display: block;
+  }
+
+  .download {
+    position: absolute;
+    top: 120px;
+    left: 30px;
+    display: none;
+  }
+
+  #click:checked ~ .download {
     display: block;
   }
